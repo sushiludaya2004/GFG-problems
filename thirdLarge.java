@@ -4,16 +4,16 @@ class Solution
     int thirdLargest(int a[], int n)
     {
 	    // Your code here
-	    int l = a[0];
+	    int left = a[0];
 	    int sl = 0;
 	    int t = 0;
 	    for(int i=0; i<n; i++){
-	        if(a[i] > l){
+	        if(a[i] > left){
 	            t = sl;
-	            sl = l;
-	            l = a[i];
+	            sl = left;
+	            left = a[i];
 	        }
-	        else if(a[i]>sl && a[i] != l ){
+	        else if(a[i]>sl && a[i] != left ){
 	            t=sl;
 	            sl = a[i];
 	        }
