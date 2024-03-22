@@ -1,7 +1,7 @@
 //https://www.geeksforgeeks.org/problems/evaluation-of-postfix-expression1735/1?page=2&category=Stack&sortBy=submissions
 class Solution
 {
-    //Function to evaluate a postfix expression.
+    
     public static int evaluatePostFix(String S)
     {
         // Your code here
